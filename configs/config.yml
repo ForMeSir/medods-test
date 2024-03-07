@@ -1,0 +1,16 @@
+port: '3423'
+db:
+  username: 'postgres'
+  password: 'riwer'
+  host: 'localhost'
+  port: '5436'
+  dbname: 'postgres'
+  sslmode: 'disable'
+mongodb:
+  host: localhost
+  port: 27017
+  database: auth-service
+  auth_db:
+  username:
+  password:
+  collection: first
